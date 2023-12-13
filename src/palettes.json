@@ -1,0 +1,26 @@
+[
+    {
+      "uuid": "5affd4e4-418d-4b62-beeb-1c0f7aaff753",
+      "title": "Marcy",
+      "color1": "#c92929",
+      "color2": "#2f5a8b",
+      "color3": "#327a5f",
+      "temperature": "Neutral"
+    },
+    {
+      "uuid": "32521ef4-d64c-4906-b06d-f3d0d6b16e0f",
+      "title": "Sleek and Modern",
+      "color1": "#3a5199",
+      "color2": "#2f2e33",
+      "color3": "#d5d6d2",
+      "temperature": "Cool"
+    },
+    {
+      "uuid": "8b144d62-faa7-4226-87e1-096d7c1bedc7",
+      "title": "Winter Reds",
+      "color1": "#a10115",
+      "color2": "#c0b2b5",
+      "color3": "#600a0a",
+      "temperature": "Warm"
+    }
+  ]

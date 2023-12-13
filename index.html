@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palette Picker</title>
+  </head>
+
+  <body>
+    <h1>Palette Picker</h1>
+    <main>
+      <form aria-label="palette-picker-form" id="palette-picker-form">
+        <div id="add-a-palette-card">
+          <h2 id="add-a-palette">Add a Palette</h2>
+          <div id="color-selector">
+            <div id="palette-title-input-div">
+              <label for="palette-title-input">Palette Title:</label>
+              <input type="text" id="palette-title-input" name="title" required>
+            </div>
+            <div id="color-one-div">
+              <label for="color-1">Color #1</label>
+              <input type="color" name="color1" id="color-1" value="#6495ED">
+            </div>
+            <div id="color-two-div">
+              <label for="color-2">Color #2</label>
+              <input type="color" name="color2" id="color-2" value="#DFFF00">
+            </div>
+            <div id="color-three-dov">
+              <label for="color-3">Color #3</label>
+              <input type="color" name="color3" id="color-3" value="#DE3163">
+            </div>
+          </div>
+          <fieldset>
+            <legend>Temperature</legend>
+              <div>
+                <input type="radio" id="warm" name="temperature" value="warm">
+                <label for="warm">Warm</label>
+                <input type="radio" id="neutral" name="temperature" value="neutral" checked>
+                <label for="neutral">Neutral</label>
+                <input type="radio" id="cool" name="temperature" value="cool">
+                <label for="cool">Cool</label>
+              </div>
+          </fieldset>
+          <button type="submit" id="create-buttom">Create the Palette</button>
+        </div>
+      </form>
+      <h2>Palettes</h2>
+      <section aria-label="palettes">
+        <ul id="palettes-list"></ul>
+      </section>
+    </main>
+    <div id="app"></div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
